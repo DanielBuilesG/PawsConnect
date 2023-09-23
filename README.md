@@ -9,7 +9,10 @@ PawsConnect está pensado para ser una aplicacion que junte dueños de mascotas 
 
 ## Como Funciona
 
-// imagenes fotos y demas de la aplicacion
+Aqui hay un ejemplo al añadir mascotas 
+
+![image](https://github.com/DanielBuilesG/PawsConnect/assets/73034258/dca38206-5a05-45b6-b9cf-6704dece4697)
+
 
 
 ## Authors
