@@ -5,6 +5,17 @@ public class Mascota {
     private String nombre;
     private String tipo;
 
+    private Long usuarioId;
+
+    public Mascota(String nombre, String tipo) {
+        setNombre(nombre);
+        setTipo(tipo);
+    }
+
+    public Mascota() {
+
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -17,9 +28,19 @@ public class Mascota {
         return tipo;
     }
 
+    public Long getUsuarioId() {
+        return usuarioId;
+    }
+
+    public void setUsuarioId(Long usuarioId) {
+        this.usuarioId = usuarioId;
+    }
+
+
     public void setId(Long id) {
         this.id = id;
     }
+
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
