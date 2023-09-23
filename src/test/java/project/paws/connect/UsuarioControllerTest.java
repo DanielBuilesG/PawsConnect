@@ -1,4 +1,4 @@
-package com.example.demo;
+package project.paws.connect;
 
 
 import static net.bytebuddy.matcher.ElementMatchers.is;
@@ -7,12 +7,12 @@ import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-import com.example.demo.controller.MascotaController;
-import com.example.demo.controller.UsuarioController;
-import com.example.demo.model.Mascota;
-import com.example.demo.model.Usuario;
-import com.example.demo.service.MascotaService;
-import com.example.demo.service.UsuarioService;
+import project.paws.connect.controller.MascotaController;
+import project.paws.connect.controller.UsuarioController;
+import project.paws.connect.model.Mascota;
+import project.paws.connect.model.Usuario;
+import project.paws.connect.service.MascotaService;
+import project.paws.connect.service.UsuarioService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

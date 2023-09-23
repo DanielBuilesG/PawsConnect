@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package project.paws.connect.model;
 
 import java.util.HashMap;
 import java.util.Map;

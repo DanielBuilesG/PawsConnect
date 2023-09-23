@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #a2cfff, #7ed5e8); /* Degradado de verde claro a azul claro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #0073e6; /* Color de fondo azul */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #0073e6; /* Color de fondo azul más fuerte */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0059b3; /* Color de fondo azul más oscuro al pasar el mouse */
+}
+
+/* Estilos para los iconos */
+i {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+

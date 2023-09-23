@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package project.paws.connect.model;
 
 public class Mascota {
     private Long id;

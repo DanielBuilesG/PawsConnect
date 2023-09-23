@@ -1,6 +1,6 @@
-package com.example.demo.service;
+package project.paws.connect.service;
 
-import com.example.demo.model.Mascota;
+import project.paws.connect.model.Mascota;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

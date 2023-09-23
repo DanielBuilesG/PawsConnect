@@ -1,7 +1,7 @@
-package com.example.demo.service;
+package project.paws.connect.service;
 
-import com.example.demo.model.Mascota;
-import com.example.demo.model.Usuario;
+import project.paws.connect.model.Mascota;
+import project.paws.connect.model.Usuario;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

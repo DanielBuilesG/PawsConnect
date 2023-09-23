@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Mascota</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+    <h1><i class="fas fa-paw"></i> Registro de Mascota</h1>
+</header>
+<section>
+    <form id="mascota-form">
+        <div class="form-group">
+            <label for="nombre"><i class="fas fa-pen"></i> Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="raza"><i class="fas fa-dog"></i> Raza:</label>
+            <input type="text" id="raza" name="raza" required>
+        </div>
+
+        <div class="form-group">
+            <label for="edad"><i class="fas fa-calendar"></i> Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+        </div>
+
+        <button type="submit"><i class="fas fa-plus"></i> Agregar Mascota</button>
+    </form>
+</section>
+
+
+<script>
+    document.getElementById('mascota-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const nombre = document.getElementById('nombre').value;
+        const raza = document.getElementById('raza').value;
+        const edad = document.getElementById('edad').value;
+
+        fetch('http://localhost:8080/mascotas', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                nombre: nombre,
+                raza: raza,
+                edad: edad,
+            }),
+        })
+        .then(response => response.json())
+        .then(data => {
+
+        });
+    });
+
+</script>
+</body>
+</html>
+
+

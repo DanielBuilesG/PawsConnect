@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package project.paws.connect.controller;
 
-import com.example.demo.model.Usuario;
-import com.example.demo.service.UsuarioService;
+import project.paws.connect.model.Usuario;
+import project.paws.connect.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

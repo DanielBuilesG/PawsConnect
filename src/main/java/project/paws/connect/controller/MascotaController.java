@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package project.paws.connect.controller;
 
-import com.example.demo.model.Mascota;
-import com.example.demo.service.MascotaService;
+import project.paws.connect.model.Mascota;
+import project.paws.connect.service.MascotaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

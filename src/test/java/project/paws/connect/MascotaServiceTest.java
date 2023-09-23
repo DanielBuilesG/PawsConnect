@@ -1,10 +1,10 @@
-package com.example.demo;
+package project.paws.connect;
 
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.example.demo.model.Mascota;
-import com.example.demo.service.MascotaService;
+import project.paws.connect.model.Mascota;
+import project.paws.connect.service.MascotaService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
