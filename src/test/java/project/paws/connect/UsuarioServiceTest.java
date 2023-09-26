@@ -36,5 +36,4 @@ public class UsuarioServiceTest {
         assertEquals("juan@example.com", usuarioGuardado.getCorreoElectronico());
     }
 
-    // Agrega más pruebas para los otros métodos de UsuarioService
 }

@@ -27,7 +27,6 @@ public class MascotaServiceTest {
         mascota.setNombre("Max");
         mascota.setTipo("Perro");
 
-
         Mascota mascotaGuardada = mascotaService.agregarMascota(mascota);
 
         assertNotNull(mascotaGuardada);
@@ -35,5 +34,5 @@ public class MascotaServiceTest {
         assertEquals("Perro", mascotaGuardada.getTipo());
     }
 
-    // Agrega más pruebas para los otros métodos de MascotaService
+
 }
